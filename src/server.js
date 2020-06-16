@@ -1,5 +1,7 @@
 
 import express from 'express';
+import mongoose from 'mongoose';
+import { PORT, MONGODB_URL } from './config/constants'
 const app = express();
 
 app.use(express.json())
